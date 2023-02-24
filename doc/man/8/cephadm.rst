@@ -234,8 +234,8 @@ Arguments:
 * [--dashboard-key DASHBOARD_KEY] Dashboard key
 * [--dashboard-crt DASHBOARD_CRT] Dashboard certificate
 * [--ssh-config SSH_CONFIG] SSH config
-* [--ssh-private-key SSH_PRIVATE_KEY] SSH private key
-* [--ssh-public-key SSH_PUBLIC_KEY] SSH public key
+* [--ssh-private-key SSH_PRIVATE_KEY] SSH private key path
+* [--ssh-public-key SSH_PUBLIC_KEY] SSH public key path
 * [--ssh-user SSH_USER]           set user for SSHing to cluster hosts, passwordless sudo will be needed for non-root users'
 * [--skip-mon-network]            set mon public_network based on bootstrap mon ip
 * [--skip-dashboard]              do not enable the Ceph Dashboard

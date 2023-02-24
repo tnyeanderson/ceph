@@ -9578,11 +9578,11 @@ def _get_parser():
     parser_bootstrap.add_argument(
         '--ssh-private-key',
         type=argparse.FileType('r'),
-        help='SSH private key')
+        help='SSH private key path')
     parser_bootstrap.add_argument(
         '--ssh-public-key',
         type=argparse.FileType('r'),
-        help='SSH public key')
+        help='SSH public key path')
     parser_bootstrap.add_argument(
         '--ssh-user',
         default='root',
